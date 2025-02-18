@@ -32,6 +32,7 @@ export const FeaturedCard = ({item ,onPress}: Props) => {
             </View>
         </View>
     </TouchableOpacity>
+    
   )
 }
 
@@ -46,6 +47,7 @@ export const Card = ({ item, onPress }: Props) => {
         <Text className="text-xs font-rubik-bold text-primary-300 ml-0.5">
           {item.rating}
         </Text>
+        
       </View>
 
       <Image source={{ uri: item.image }} className="w-full h-40 rounded-lg" />
